@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.sup a img {
+    gap: 1rem;
+}
+
+.sup-btn {
+    color: #47C857;
+    background: white;
+    border: solid 1px #47C857;
+    border-radius: 25px;
+    height: 36px;
+    width: 98px;
+}
+
+.hero-sec {
+    width: 100%;
+    height: 525px;
+    background: url('Img/image 1.png') no-repeat, linear-gradient(292deg, rgba(0, 194, 231, 0.15) 15.34%, rgba(0, 194, 231, 0.01) 81.38%);
+    background-position: 7.394px -134.245px;
+    background-size: 100% 206.571%;   
+    flex-shrink: 0; 
+}
