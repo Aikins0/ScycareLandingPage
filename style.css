@@ -463,25 +463,24 @@ input[type=text] {
 
 .checkup-sub-2 {
     align-items: center;
-    column-gap: 4.8rem;
+    column-gap: 3rem;
     display: flex;
     flex-shrink: 0;
     height: 15.1rem;
-    margin-bottom: 3.6rem;
     width: 100%;
+    margin-bottom: 1%;
 }
 
-.checkup-card-1 {
+.checkup-card-1, .checkup-card-2, .checkup-card-3 {
     align-items: flex-start;
-    background-color: #ffffff;
     border-radius: 2rem;
     box-shadow: 0 0.4rem 1rem rgba(3, 92, 109, 0.0700000003);
     box-sizing: border-box;
     display: flex;
     flex-shrink: 0;
-    height: 14.9rem;
     margin-top: 0.2rem;
     padding: 0.397rem 1.6rem 0.402rem 0rem;
+    width: 18%;
 }
 
 .checkup-card-2 {
@@ -516,6 +515,7 @@ input[type=text] {
     display: flex;
     flex-shrink: 0;
     height: 21.1rem;
+    width: 80%;
 }
 
 .fa-angle-left, .fa-angle-right {
@@ -529,11 +529,11 @@ input[type=text] {
 
 .intersect {
     flex-shrink: 0;
-    height: 14.101rem;
-    margin-right: 1.6rem;
+    height: 8.813rem;
+    margin-right: 0.6rem;
     object-fit: contain;
     vertical-align: top;
-    width: 0.8rem;
+    width: 0.5rem;
 }
 
 .check-card-1 {
@@ -550,7 +550,7 @@ input[type=text] {
     color: #656973;
     flex-shrink: 0;
     font-family: Hellix, 'Source Sans Pro';
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     font-weight: 500;
     line-height: 1.2575;
     margin: 0rem 0rem 1.6rem 0.1rem;
@@ -579,8 +579,181 @@ input[type=text] {
     color: #656973;
     flex-shrink: 0;
     font-family: 'hellix';
-    font-size: 1.2rem;
+    font-size: 0.75rem;
     font-weight: 400;
     line-height: 1.5;
-    max-width: 7.4rem;
+    max-width: 8.4rem;
+}
+
+.view-details {
+    align-items: center;
+    border: solid 0.1rem #00c2e7;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    color: #00c2e7;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Hellix, 'Source Sans Pro';
+    font-size: 0.75rem;
+    font-weight: 600;
+    height: 1.875rem;
+    justify-content: center;
+    line-height: 1.2575;
+    margin-right: 1.6rem;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 7.75rem;
+    background-color: white;
+}
+
+.add-to-cart {
+    align-items: center;
+    background-color: #00c2e7;
+    border-radius: 2rem;
+    color: #ffffff;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Hellix, 'Source Sans Pro';
+    font-size: 0.75rem;
+    font-weight: 600;
+    height: 1.875rem;
+    justify-content: center;
+    line-height: 1.2575;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    width: 7.75rem;
+}
+
+.check-sub-2 {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 3rem;
+    width: 100%;
+    margin-left: 21%;
+    margin-top: 7%;
+}
+
+.amount {
+    align-items: center;
+    column-gap: 0.2rem;
+    display: flex;
+    flex-shrink: 0;
+    
+}
+
+.ghs {
+    color: #595d6e;
+    flex-shrink: 0;
+    font-family: Hellix, 'Source Sans Pro';
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.75;
+    white-space: nowrap;
+}
+
+.amount-num {
+    flex-shrink: 0;
+    font-family: Hellix, 'Source Sans Pro';
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.1666666667;
+    /* margin-bottom: 0.1rem; */
+    white-space: nowrap;
+    color: #00B0E7;
+}
+
+.amount-num-1 {
+    display: flex;
+    flex-shrink: 0;
+    font-family: Hellix, 'Source Sans Pro';
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.2575;
+    margin-bottom: 0.1rem;
+    white-space: nowrap;
+    color: #00B0E7;
+}
+
+.radial-btn {
+    align-items: center;
+    border-radius: 2.4rem;
+    column-gap: 0.813rem;
+    display: flex;
+    flex-shrink: 0;
+    height: 2.4rem;
+    margin: 0rem 56.5rem 0rem 56.4rem;
+    width: calc(100% - 112.9rem);
+}
+
+.radial-btn-1 {
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radial-btn-1-1 {
+    border: solid 0.2rem #ccd5d9;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radial-btn-2 {
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+    height: 1.5rem;
+    position: relative;
+    width: 1.5rem;
+}
+
+.radial-btn-2-2 {
+    background-color: rgba(101, 105, 115, 0.6800000072);
+    border-radius: 2.4rem;
+    height: 0.75rem;
+    left: 0.4rem;
+    position: absolute;
+    top: 0.4rem;
+    width: 0.75rem;
+}
+
+.radial-btn-2-2-2 {
+    border: solid 0.2rem #ccd5d9;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    height: 1.5rem;
+    /* left: 0; */
+    /* position: absolute; */
+    /* top: 0; */
+    width: 1.5rem;
+}
+
+.radial-btn-3 {
+    border-radius: 2.4rem;
+    flex-shrink: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radial-btn-3-3 {
+    border: solid 0.2rem #ccd5d9;
+    border-radius: 2.4rem;
+    box-sizing: border-box;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.popular-checkups {
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    height: 34rem;
+    left: 6%;
+    position: absolute;
+    /* top: 137.6rem; */
+    width: 90%;
 }
