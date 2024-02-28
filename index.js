@@ -18,9 +18,11 @@ accordionBtns.forEach((accordionBtn) => {
     if (accordionBtn.classList.contains('active')) {
       accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
       plusSign.textContent = '-';
+      accordionBtn.style.border = '1px solid #656973';
     } else {
       accordionContent.style.maxHeight = null;
       plusSign.textContent = '+';
+      accordionBtn.style.border = '1px solid #656973';
     }
   });
 });

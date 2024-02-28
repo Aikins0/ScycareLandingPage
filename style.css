@@ -286,13 +286,13 @@ input[type=text] {
     cursor: pointer;
     display: flex;
     font-family: Hellix, 'Source Sans Pro';
-    font-size: 0.6rem;
+    /* font-size: 0.6rem; */
     font-weight: 500;
-    height: 37px;
+    height: 3rem;
     justify-content: center;
     line-height: 1.3999999762;
     white-space: nowrap;
-    width: 172px;
+    width: 10rem;
 }
 
 .steps {
@@ -326,15 +326,15 @@ input[type=text] {
     color: #ffffff;
     display: flex;
     flex-shrink: 0;
-    font-family: Poppins, 'Source Sans Pro';
-    font-size: 3.2rem;
+    font-family: 'hellix';
+    font-size: 2.2rem;
     font-weight: 500;
-    height: 100%;
+    height: 79%;
     justify-content: center;
     line-height: 0.5;
     text-align: center;
     white-space: nowrap;
-    width: 5.3rem;
+    width: 4.3rem;
 }
 
 .steps-num {
@@ -344,13 +344,14 @@ input[type=text] {
     height: 5.3rem;
     margin: 1.5rem 8rem 0.1rem 7.35rem;
     width: calc(100% - 15.35rem);
+    margin-left: 12%;
 }
 
 .line-55 {
     background-color: #ffffff;
     flex-shrink: 0;
     height: 0.1rem;
-    width: 22.75rem;
+    width: 16.75rem;
 }
 
 .auto-group {
@@ -368,27 +369,26 @@ input[type=text] {
     box-sizing: border-box;
     color: #ffffff;
     display: flex;
-    font-family: Poppins, 'Source Sans Pro';
-    font-size: 3.2rem;
+    flex-shrink: 0;
+    font-family: 'hellix';
+    font-size: 2.2rem;
     font-weight: 500;
-    height: 5.3rem;
+    height: 79%;
     justify-content: center;
-    left: 0;
     line-height: 0.5;
-    position: absolute;
     text-align: center;
-    top: 0;
     white-space: nowrap;
-    width: 5.3rem;
+    width: 4.3rem;
+    margin-top: 2%;
 }
 
 .line-54 {
     background-color: #ffffff;
     height: 0.1rem;
-    left: 5.2rem;
+    left: 4.2rem;
     position: absolute;
     top: 2.6rem;
-    width: 22.75rem;
+    width: 16.75rem;
 }
 
 .group-1308 {
@@ -400,30 +400,31 @@ input[type=text] {
     color: #ffffff;
     display: flex;
     flex-shrink: 0;
-    font-family: Poppins, 'Source Sans Pro';
-    font-size: 3.2rem;
+    font-family: 'hellix';
+    font-size: 2.2rem;
     font-weight: 500;
-    height: 100%;
+    height: 79%;
     justify-content: center;
     line-height: 0.5;
     text-align: center;
     white-space: nowrap;
-    width: 5.3rem;
+    width: 4.3rem;
+    margin-left: -15%;
 }
 
 .steps-sub-text {
     align-items: center;
     display: flex;
     flex-shrink: 0;
-    width: 71%;
-    margin-left: 8%;
+    width: 53%;
+    margin-left: 6%;
 }
 
 .select-test {
     color: #ffffff;
     flex-shrink: 0;
     font-family: Hellix, 'Source Sans Pro';
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 0.8;
     margin-right: 27%;
@@ -435,7 +436,7 @@ input[type=text] {
     color: #ffffff;
     flex-shrink: 0;
     font-family: Hellix, 'Source Sans Pro';
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 0.8;
     margin-right: 21%;
@@ -447,7 +448,7 @@ input[type=text] {
     color: #ffffff;
     flex-shrink: 0;
     font-family: Hellix, 'Source Sans Pro';
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 0.8;
     text-align: center;
@@ -472,10 +473,10 @@ input[type=text] {
 .view-all-checkups {
     color: white;
     background-color: #00C2E7;
-    width: 15.438rem;
-    height: 3.438rem;
+    width: 10rem;
+    height: 3rem;
     border-radius: 1.563rem;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-family: 'hellix';
 }
 
@@ -707,8 +708,9 @@ input[type=text] {
     display: flex;
     flex-shrink: 0;
     height: 2.4rem;
-    margin: 0rem 56.5rem 0rem 56.4rem;
+    /* margin: 0rem 56.5rem 0rem 56.4rem; */
     width: calc(100% - 112.9rem);
+    margin-left: -9%;
 }
 
 .radial-btn-1 {
@@ -738,9 +740,9 @@ input[type=text] {
     background-color: rgba(101, 105, 115, 0.6800000072);
     border-radius: 2.4rem;
     height: 0.75rem;
-    left: 0.4rem;
+    left: 0.35rem;
     position: absolute;
-    top: 0.4rem;
+    top: 0.35rem;
     width: 0.75rem;
 }
 
@@ -808,12 +810,12 @@ input[type=text] {
 }
 
 .view-checkups {
-    width: 9.438rem;
+    width: 10rem;
     border-radius: 1.563rem;
-    height: 2.438rem;
+    height: 3rem;
     background-color: #00C2E7;
     font-family: 'hellix';
-    font-size: 0.6rem;
+    /* font-size: 0.6rem; */
     color: white;
 }
 
@@ -890,7 +892,7 @@ input[type=text] {
     top: 20%;
     position: relative;
     /* left: 7%; */
-    margin-left: 31%;
+    margin-left: 26%;
 }
 
 .people-say {
@@ -1236,7 +1238,6 @@ input[type=text] {
     text-align: center;
     font-family: 'hellix';
     font-size: 1.5rem;
-    font-weight: 600;
     padding: 1.5rem;
     color: #656973;
 }
@@ -1280,7 +1281,7 @@ input[type=text] {
     overflow: hidden;
     transition: max-height 0.5s ease;
     /* border: 1px solid #656973; */
-    border-top: none;
+    /* border-top: none; */
     margin-bottom: 1.5rem;
     box-shadow: 0 2px 4px rgba(101, 105, 115, 0.5);
     color: #656973;
