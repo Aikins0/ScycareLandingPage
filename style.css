@@ -955,7 +955,7 @@ input[type=text] {
 }
 
 .partner-text-sec {
-    background-image: url('Img/partnerimage.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    background-image: url('Img/partnerimage.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-size: cover;
     border-radius: 20px;
     background-repeat: no-repeat;
@@ -1332,8 +1332,8 @@ input[type=text] {
     }
 
     .steps {
-    width: 67%;
-    margin-left: 17%;
+        width: 71%;
+        margin-left: 16%;
     }
 
     .pop-sec {
@@ -1362,12 +1362,14 @@ input[type=text] {
     }
 
     .fa-angle-left, .fa-angle-right { 
-        display: none;
+        display: none !important;
     }
 
     .checkup {
-        margin-left: -8%;
-        margin-top: -3%;
+        margin-left: -8% !important;
+        /* margin-top: -3%; */
+        width: 100%;
+        /* align-items: center !important; */
     }
 
     .radial-btn {
@@ -1392,5 +1394,24 @@ input[type=text] {
 
     .footer {
         margin-left: -15%;
+    }
+
+    .checkup-sub-1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 100%;
+        /* width: 93.7rem; */
+        /* overflow: hidden; */
+        /* margin-left: 11%; */
+    }
+
+    .footer-scynett p {
+        margin-left: 12%;
+    }
+
+    .checkup-card-1 {
+        display: none;
     }
   }  
