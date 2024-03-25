@@ -946,7 +946,7 @@ input[type=text] {
 .what-people-say .fa-solid {
     margin-top: 13%;
     color: #CCD5D9;
-} 
+}
 
 .partner-sec {
     display: flex;
@@ -1044,7 +1044,8 @@ input[type=text] {
     width: 27rem;
 }
 
-.cont-sec-call p, .cont-sec-chat-1 p{
+.cont-sec-call p,
+.cont-sec-chat-1 p {
     margin-left: 8%;
 }
 
@@ -1076,51 +1077,53 @@ input[type=text] {
 
 .faq-question .question {
     margin-bottom: 20px;
-  }
+}
 
- 
-  
+
+
 .question-toggle {
     background-color: #f2f2f2;
-      /* border: none;
+    /* border: none;
       padding: 10px;
       width: 100%; */
-      text-align: left;
-      font-size: 16px;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-  }
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
 
-  .faq-question {
+.faq-question {
     margin-bottom: 20px;
-    position: relative; /* Ensure the relative positioning of the question container */
-  }
-  
-  .answer {
+    position: relative;
+    /* Ensure the relative positioning of the question container */
+}
+
+.answer {
     padding: 10px;
     display: none;
     background-color: #f9f9f9;
     border-left: 4px solid #4CAF50;
-    margin-top: 10px; /* Adjust the margin to create space between the question and the answer */
+    margin-top: 10px;
+    /* Adjust the margin to create space between the question and the answer */
     position: absolute;
     left: 0;
     width: 100%;
-  }
-  
-  .answer.active {
-    display: block;
-  }
+}
 
-  .toggle-btn {
+.answer.active {
+    display: block;
+}
+
+.toggle-btn {
     cursor: pointer;
     font-weight: bold;
-  }
+}
 
 .making-health-sec {
     margin-left: 25%;
     margin-top: 5%;
-  }
+}
 
 .making-health {
     display: flex;
@@ -1129,14 +1132,14 @@ input[type=text] {
     margin-top: -6%;
     margin-left: 2%;
     align-items: center;
-  }
+}
 
 .making-health p {
     font-family: 'hellix';
     font-weight: 800;
     font-size: 2rem;
     color: #00C2E7;
-}  
+}
 
 .making-health-sec-img img {
     width: 4rem;
@@ -1254,7 +1257,7 @@ input[type=text] {
 
 .svg-bottom {
     margin-left: 88%;
-    
+
 }
 
 .accordion {
@@ -1262,9 +1265,9 @@ input[type=text] {
     /* max-width: 600px; */
     /* margin: 0 auto; */
     /* border: 1px solid #ccc; */
-  }
-  
-  .accordion-btn {
+}
+
+.accordion-btn {
     display: block;
     width: 100%;
     padding: 15px;
@@ -1277,9 +1280,9 @@ input[type=text] {
     border-radius: 4px;
     color: #656973;
     font-family: 'hellix';
-  }
-  
-  .accordion-content {
+}
+
+.accordion-content {
     padding: 0 15px;
     max-height: 0;
     overflow: hidden;
@@ -1290,45 +1293,49 @@ input[type=text] {
     box-shadow: 0 2px 4px rgba(101, 105, 115, 0.5);
     color: #656973;
     font-family: 'hellix';
-  }
+}
 
-  .accordion-content p {
+.accordion-content p {
     margin-bottom: 5rem;
-  }
-  
-  .plus-sign {
+}
+
+.plus-sign {
     float: right;
     transition: 0.3s;
-  }
+}
 
-  
-  @media only screen and (max-width: 1601px) {
+.hide-on-desktop {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1601px) {
     .header {
-    width: 66%;
-    margin-left: 18%;
+        width: 66%;
+        margin-left: 18%;
     }
 
     .left-text {
-    margin-left: 19%;
+        margin-left: 19%;
     }
 
     .fast-sec {
-    font-size: 2.4rem;
+        font-size: 2.4rem;
     }
 
     .discount {
-    top: 21.7rem;
-    margin-left: 21%;
+        top: 21.7rem;
+        margin-left: 21%;
     }
 
     .mask-group {
-    left: 49rem;
-    top: -0.7rem;
-    width: 21.9966rem;
+        left: 49rem;
+        top: -0.7rem;
+        width: 21.9966rem;
     }
 
     .hero-sec {
-    height: 23rem;
+        height: 23rem;
     }
 
     .steps {
@@ -1337,11 +1344,13 @@ input[type=text] {
     }
 
     .pop-sec {
-    width: 67%;
-    margin-left: 17%;
+        width: 67%;
+        margin-left: 17%;
     }
 
-    .checkup-card-1, .checkup-card-2, .checkup-card-3 {
+    .checkup-card-1,
+    .checkup-card-2,
+    .checkup-card-3 {
         align-items: flex-start;
         border-radius: 2rem;
         box-shadow: 0 0.4rem 1rem rgba(3, 92, 109, 0.0700000003);
@@ -1361,7 +1370,8 @@ input[type=text] {
         margin-top: -4%;
     }
 
-    .fa-angle-left, .fa-angle-right { 
+    .fa-angle-left,
+    .fa-angle-right {
         display: none !important;
     }
 
@@ -1414,102 +1424,249 @@ input[type=text] {
     /* .checkup-card-1 {
         display: none;
     } */
-  } 
-  
-    @media only screen and (max-width: 475px)  { 
-        .header {
-            flex-direction: column;
-        }
+}
 
-        .logo img {
-            width: 5rem;
-        }
-
-        .mask-group {
-            display: none;
-        }
-
-        .left-text {
-            margin-left: 1%;
-        }
-
-        .fast-sec {
-            font-size: 1.4rem;
-        }
-
-        .redefine {
-            font-size: 0.76rem;
-        }
-
-        .search-field {
-            width: 18rem;
-        }
-
-        .discount {
-            top: 34%;
-            width: 18.3rem;
-        }
-
-        .discount-sub-0, .discount-sub-1, .discount-sub-2, .discount-sub-3 {
-            font-size: 10px;
-        }
-
-        .hero-sec {
-            height: 16rem;
-        }
-
-        .why-text {
-            font-size: 1.3rem;
-            margin-left: -32%;
-        }
-
-        .why-groups {
-            flex-direction: column;
-            margin-left: -14%;
-        }
-
-        .order {
-            margin-left: -32%;
-        }
-
-        .steps {
-            width: 100%;
-        }
-
-        .popular-checkups {
-            width: 100%;
-        }
-
-        .vital-body-part {
-            margin-top: 200%;
-        }
-
-        /* .checkup {
-            flex-direction: column;
-        } */
-
-        .checkup-sub-2 {
-            flex-direction: column;
-        }
-
-        .checkup-sub-1 {
-            margin-left: -126%;
-        }
-
-        .radial-btn {
-            display: none;
-        }
-
-        .heart-group {
-            display: none;
-        }
-
-        .pop-sec {
-            margin-left: 3%;
-            width: 28rem;
-        }
-
-        .popular-text {
-            font-size: 1.5rem;
-        }
+@media only screen and (max-width: 475px) {
+    .header {
+        flex-direction: column;
+        margin-left: 12%;
     }
+
+    .logo img {
+        width: 5rem;
+    }
+
+    .mask-group {
+        display: none;
+    }
+
+    .left-text {
+        margin-left: 15%;
+    }
+
+    .fast-sec {
+        font-size: 1.4rem;
+    }
+
+    .redefine {
+        font-size: 0.76rem;
+    }
+
+    .search-field {
+        width: 18rem;
+    }
+
+    .discount {
+        top: 34%;
+        width: 21.3rem;
+        margin-left: 9%;
+    }
+
+    .discount-sub-0,
+    .discount-sub-1,
+    .discount-sub-2,
+    .discount-sub-3 {
+        font-size: 10px;
+    }
+
+    .hero-sec {
+        height: 16rem;
+    }
+
+    .why-text {
+        font-size: 1.3rem;
+    }
+
+    .why-groups {
+        flex-direction: column;
+        margin-left: 16%;
+    }
+
+    .order {}
+
+    .steps {
+        width: 61%;
+        /* margin-left: 0; */
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        height: 30rem;
+    }
+
+    .popular-checkups {
+        width: 100%;
+    }
+
+    .vital-body-part {
+        margin-top: 148%;
+    }
+
+    .checkup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .checkup-sub-2 {
+        flex-direction: column;
+    }
+
+    .checkup-sub-1 {
+        /* margin-left: -126%;  */
+        width: 112%;
+        height: 33rem;
+        margin-left: 12%;
+    }
+
+    .radial-btn {
+        display: none;
+    }
+
+    .heart-group {
+        display: none;
+    }
+
+    .pop-sec {
+        margin-left: 3%;
+        width: 28rem;
+    }
+
+    .popular-text {
+        font-size: 2rem;
+        margin-left: 14%;
+    }
+
+    .line-54,
+    .line-55 {
+        display: none;
+    }
+
+    .steps-num {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .for-vital-body {
+        margin-left: 1%;
+    }
+
+    .what-people-say {
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner-sec {
+        margin-left: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frequently {
+        margin-left: 1%;
+    }
+
+    .asked {
+        font-size: 1.5rem;
+    }
+
+    .making-health-sec {
+        margin-left: 1%;
+    }
+
+    .footer {
+        margin-left: 0;
+    }
+
+    .making-health-sec-img img {
+        width: 2.5rem;
+    }
+
+    .making-health p {
+        font-size: 1.5rem;
+    }
+
+    .making-health {
+        margin-top: -13%;
+        margin-left: 5%;
+    }
+
+    .payment {
+        margin-left: 1%;
+    }
+
+    .payment p {
+        font-size: 1rem;
+    }
+
+    .payment img {
+        width: 13.5rem;
+    }
+
+    .footer-links {
+        margin-left: 1%;
+    }
+
+    .group-1306 {
+        margin-left: 21%;
+    }
+
+    .group-1307 {
+        margin-top: 18%;
+        margin-left: 51%;
+    }
+
+    .group-1308 {
+        margin-left: 19%;
+        margin-top: 35%;
+    }
+
+    .select-test {
+        /* margin-right: 11%; */
+        margin-top: -3%;
+        margin-left: 50%;
+    }
+
+    .hide-on-desktop {
+        display: block;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .view-alll {
+        color: white;
+        background-color: #00C2E7;
+        width: 10rem;
+        height: 3rem;
+        border-radius: 1.563rem;
+        /* font-size: 1rem; */
+        font-family: 'hellix';
+    }
+
+    .partner-text-sec {
+        width: 27rem;
+        height: 21rem;
+    }
+
+    .cont-sec-call, .cont-sec-chat {
+        margin-left: 0%;
+    }
+
+    .cont-sec-call {
+        margin-bottom: 0.5rem;
+    }
+
+    .svg-bottom img {
+        width: 3rem;
+    }
+
+    .footer-scynett {
+        height: 4rem;
+        margin-top: -9%;
+    }
+
+    .svg-bottom {
+        margin-left: 85%;
+    }
+}
